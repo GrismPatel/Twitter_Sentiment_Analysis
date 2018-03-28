@@ -9,10 +9,10 @@ def sentiment(text):
     return tut.voted_classifier.classify(feats),tut.voted_classifier.confidence(feats)
 
 #consumer key, consumer secret, access token, access secret.
-consumer_key = "B5JUDcuhR8SdSLGDtNXWpkVes"
-consumer_secret = "479X4KVe8Hz49RDSdUeUQZgwKLlnzAA4FmF9icUKqasXvaM49q"
-access_token = "3115213074-Kc6NBqQ3Gtuu4PMCoSxEZIPtMQfy0yBWd9aVYpG"
-access_secret = "CVKInuwtxA5DKbqltdBvfkXi32WfwYTY9yy2ion3URY26"
+consumer_key = "Enter your consumer_key"
+consumer_secret = "Enter your consumer_secret"
+access_token = "Enter your access_token"
+access_secret = "Enter your access_secret"
 
 class listener(StreamListener):
     def on_data(self, data):
